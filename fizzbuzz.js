@@ -15,6 +15,11 @@ function fizzBuzz () {
 	}
 }
 
+function clear () { 
+	$("#output").empty();
+}
+
 $(document).on("ready", function() { 
 	$("#print").on("click", fizzBuzz);
+	$("#clear").on("click", clear);
 });

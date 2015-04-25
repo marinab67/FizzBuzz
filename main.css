@@ -1,0 +1,13 @@
+body { 
+	text-align: center;
+	background-color: purple;
+	color: white;
+	font-family: 'Georgia', 'Times', serif;
+	font-size: 2rem;
+}
+h1 { 
+	margin-bottom: 5px;
+}
+#clear { 
+	margin-bottom: 10px;
+}
